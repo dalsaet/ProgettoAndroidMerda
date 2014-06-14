@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:id="@+id/tabScroller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/tabContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/listContainer"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" android:layout_weight="0.2">
+
+        <ExpandableListView
+            android:id="@+id/POIListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:paddingTop="5dp">
+        </ExpandableListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menuView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:gravity="center">
+
+        <Button
+            android:id="@+id/addPOIButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ShowTableButtonString" android:layout_weight="0.5" android:onClick="onShowTableClick" android:background="@drawable/manager_defaultbutton"/>
+
+        <Button
+            android:id="@+id/removeTableButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/RemoveTableButtonText" android:layout_weight="0.5" android:onClick="onRemoveTableButtonClick" android:background="@drawable/manager_defaultbutton"/>
+
+    </LinearLayout>
+
+</LinearLayout>

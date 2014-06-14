@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="right"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/TextWrapper"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:id="@+id/InnerTextWrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/ChildPOIName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/ChildPOIAct"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/ChildPOIPoint"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ButtonWrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" android:layout_marginRight="5dp">
+
+        <Button
+            android:id="@+id/EditPOIButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="onEditPOIButtonClick"
+            android:text="@string/EditPOIButtonString" android:background="@drawable/edit_button"/>
+
+        <Button
+            android:id="@+id/DeletePOIButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="onDeletePOIButtonClick"
+            android:text="@string/DeletePOIButtonText" android:background="@drawable/delete_button"/>
+
+    </LinearLayout>
+
+</LinearLayout>

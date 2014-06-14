@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">POIManager</string>
+    <string name="addPOIButtonText">ADD NEW POI</string>
+    <string name="addPOIDialogTitle">Add POI</string><string name="addTableDialogTitle">Add Table</string>
+    <string name="addPOIDialogNameLabel">Insert the new POI name:</string>
+    <string name="addPOIDialogActionLabel">Write action for this POI:</string>
+    <string name="addPOIDialogLatLonLabel">Where to put this POI (Lat,Lon):</string>
+    <string name="addPOIConfirmButton">Add</string>
+    <string name="addPOICancelButton">Cancel</string>
+    <string name="ErrorAlreadyUsedName">This name is already in use, please choose a different name...</string><string name="ErrorEmptyName">Name is empty...</string><string name="ErrorLatLonFormatException">Latitude and Longitude for this POI are not in the correct format...</string>
+    <string name="newTableButtonText">+</string><string name="addTableDialogNameLabel">Insert the new Table name:</string><string name="addTableConfirmButton">Add</string><string name="addTableCancelButton">Cancel</string>
+    <string name="RemoveTableButtonText">Delete Table</string>
+    <string name="ConfirmLabel">Confirm?</string>
+    <string name="OkLabel">Ok</string>
+    <string name="NoLabel">No</string>
+    <string name="ShowTableButtonString">Show on Map</string>
+    <string name="DeletePOIButtonText"> </string>
+    <string name="EditPOIButtonString"> </string>
+    <string name="EditPOIDialogTitle">Edit POI</string>
+    <string name="EditPOIConfirmButton">Save</string>
+    <string name="EditPOICancelButton">Cancel</string>
+
+</resources>
